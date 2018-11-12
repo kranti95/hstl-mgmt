@@ -1,0 +1,168 @@
+<html> 
+<head>
+<style type="text/css">
+h1{
+padding-top:10px;
+padding-left:300px;
+}
+h3{padding-left:500px;
+padding-top:0px;
+line-height:1%;
+}
+h{
+padding-left:10px;
+padding-right:10px;
+background-color:grey;
+margin:10px;
+height:50px;
+text-shadow:2px 2px 3px green;
+}
+.bd{
+background:linear-gradient();
+margin-top:10px;
+margin-left:0px;
+}
+a{
+background-color:#8A2BE2;
+padding:10px 40px 10px 40px;
+color:white;
+font-weight:bold;
+margin-left:100px;
+border-radius:10px;
+text-decoration:none;
+display:inline-block;
+}
+.ii{
+float:left;
+background-repeat:no-repeat;
+padding-left:280px;
+width:100px;
+height:50px;
+}
+.di
+{
+background-image:url(ablue3.jpg);
+background-size:100% 100%;
+}
+a:hover{
+color:#7fff04;
+}
+
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;}
+.mySlides {display:none}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.text {
+  color:blue;
+  font-size: 20px;
+  padding: 0px 12px;
+  position: absolute;
+  bottom:50;
+  width: 100%;
+  text-align:none;
+}
+
+.numbertext {
+  color:blue;
+  font-size: 30px;
+  padding: 300px 200px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 5s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 5s;
+  animation-name: fade;
+  animation-duration: 5s;
+}
+
+//@-webkit-keyframes fade {
+  from {opacity: 5} 
+  to {opacity: 10}
+}
+
+@keyframes fade {
+  from {opacity: .5} 
+  to {opacity: 10}
+}
+
+@media only screen and (max-width: 200px) {
+  .text {font-size: 20px}
+}
+</style>
+</head>
+<body background="">
+<div class="di">
+<div class="ii"><img src="SVU-logo.jpg"height="100" width="100"></img></div>
+
+<h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SRI VENKATESWARA UNIVERSITY<br><font color="red">&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp
+Boys hostel Management</h1>
+<p>.</p>
+
+&nbsp;&nbsp;<a href="">Home</a><a href="facility.html">Facilities</a><a href="join.html">Join</a><a href="fr.html">Login</a><a href="rules.html">Rules</a>
+</div>
+<div class="bd">
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="svuad.JPG" style="width:100%;height:70%">
+<div class="text"></div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="Pd.jpg" style="width:100%;height:70%">
+  <div class="text"></div>
+</div>
+</div>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+
+</div>
+</div>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<html>
+<head>
+<title>view</title>
+<style type="text/css">
+.hd{
+background-color:blue;
+}
+.d{
+border:none;
+margin-left:120px;
+margin-right:120px;
+margin-top:8px;
+padding:6px;
+font-weight:bold;
+background-color:LightGreen;
+}
+a{
+color:red;
+font-weight:bold;
+margin-top:10px;
+background-color:yellow;
+border-radius:15px;
+padding:2px;
+text-decoration:none;
+
+}
+</style>
+</head>
+<body background="drak.jpg">
+<div class="hd"><center><h2 style="color:white;">SRI VENKATESWARA UNIVERSITY</h2>
+<h3 style="color:white;">BOYS HOSTEL MANAGEMENT</h3></center>
+<hr size=2 color="yellow"></div>
+</div>
+
+<marquee behavior="alternate"><h4 style="color:red;"> please select the necessary options </h4></marquee>
+<center>
+<div class="d">
+<fieldset><legend>Students details</legend>
+<form action="view.jsp">
+Course:<select name="crs">
+<option value="mca">MCA</option>
+<option value="msc">MSC</option>
+<option value="mba">MBA</option>
+<option value="m.com">MCOM</option>
+</select>
+Hostel:<select name="hst">
+<option value="mens">Mens</option>
+<option value="womens">Womens</option>
+</select><br><br>
+<input type="submit" name="submit">
+<input type="reset" name="reset">
+</form> </fieldset>
+</div>
+<center>
+<div class="d">
+<fieldset><legend>Students Bill Details</legend>
+<form action="view2.jsp">
+Course:<select name="crs">
+<option value="mca">MCA</option>
+<option value="msc">MSC</option>
+<option value="mba">MBA</option>
+<option value="m.com">MCOM</option>
+</select>
+Hostel:<select name="hst">
+<option value="mens">Mens</option>
+<option value="womens">Womens</option>
+</select><br><br>
+<input type="submit" name="submit">
+<input type="reset" name="reset">
+</form> </fieldset>
+</div>
+
+<center>
+<div class="d">
+<fieldset><legend>Students(Freshers)</legend>
+<form action="view3.jsp">
+Course:<select name="crs">
+<option value="mca">MCA</option>
+<option value="msc">MSC</option>
+<option value="mba">MBA</option>
+<option value="m.com">MCOM</option>
+</select>
+<br><br>
+<input type="submit" name="submit">
+<input type="reset" name="reset">
+</form> </fieldset>
+</div>
+<center>
+<div class="d">
+<fieldset><legend>Generate students monthly bill</legend>
+<form action="view4.jsp">
+Course:<select name="crs">
+<option value="mca">MCA</option>
+<option value="msc">MSC</option>
+<option value="mba">MBA</option>
+<option value="m.com">MCOM</option>
+</select>
+Hostel:<select name="hst">
+<option value="mens">Mens</option>
+<option value="womens">Womens</option>
+</select><br><br>
+Month:<select name="mnt">
+  <option value="january">JANUARY</option>
+<option value="february">FEBRUARY</option>
+<option value="march">MARCH</option>
+<option value="april">APRIL</option>
+<option value="may">MAY</option>
+<option value="june">JUNE</option>
+<option value="july">JULY</option>
+<option value="august">AUGUST</option>
+<option value="september">SEPTEMBER</option>
+<option value="october">OCTOBER</option>
+<option value="november">NOVEMBER</option>
+<option value="december">DECEMBER</option>
+</select><br><br>
+<input type="submit" name="submit">
+<input type="reset" name="reset">
+</form> </fieldset>
+</div>
+
+<center>
+
+<center><a href="admin.html">click to Back</a></center>
+</body>
+</html>

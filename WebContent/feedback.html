@@ -1,0 +1,50 @@
+<html>
+<head><title>feedback</title>
+<style>
+.dv{
+border:2px solid cyan;
+padding:20px;
+margin-right:200px;
+margin-left:300px;
+background-image:url("aa.jpg");
+margin-bottom:20px;
+}
+.di{
+background-color:blue;
+color:white;
+}
+alert{
+color:red;
+}
+a{
+color:red;
+font-weight:bold;
+background-color:yellow;
+border-radius:15px;
+padding:2px;
+text-decoration:none;
+
+}
+</style>
+<script type="text/javascript">
+function popup()
+{
+var str = new String("Successful...Thankyou for suggestions");
+
+alert(str);
+}
+</script>
+</head>
+<body bgcolor="thickgray">
+<div class="di"><center><h2>FEEDBACK</h2></center>
+<hr size="5" color="yellow"></hr></div>
+<div class="dv">
+<form action="">
+Name:<input type="text" name="Name" Placeholder="Name"></input>
+&nbsp&nbspEmail:<input type="email" name="Email" placeholder="Email"></input><br><br>
+<textarea name="Message" rows="15" cols="68">Message</textarea><br><br>
+<button type="submit" onclick="popup()">Submit</button>
+</div>
+<center><a href="index.html">Back to Home</a></center></form>
+</body>
+</html>

@@ -1,0 +1,139 @@
+<html>
+<head>
+<title>adminentry</title>
+<style type="text/css">
+form{
+color="white";
+display:table;
+padding:18px;
+background-color:thistle;
+border:solid 2px red;
+font-weight:bold;
+}
+.hd{
+background-color:blue;
+}
+a{
+float:left;
+color:white;
+font-weight:bold;
+margin-left:10px;
+background-color:black;
+border-radius:15px;
+padding:2px;
+text-decoration:none;
+
+}
+</style>
+</head>
+<body background="skygb.jpg">
+<div class="hd"><center><h2 style="color:white">SRI VENKATESWARA UNIVERSITY</h2>
+<h3 style="color:white">HOSTELS BILL MANAGEMENT</h3></center>
+
+<hr size=4 color="yellow"></div>
+<center>
+<font size="6" style="color:red"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Entry For Monthly Bills</b></font>
+</center>
+<center>
+<a href="admin.html">Back to home</a>
+<form action="store1.jsp" method="post">
+<table align="center">
+<tr>
+<td>STUDENT NAME&nbsp;&nbsp;</td>
+<td>:</td>
+<td><input type="text" name="sname" required/></td>
+</tr>
+<tr>
+<td>ADMISSION NO&nbsp;&nbsp;</td>
+<td>:</td>
+<td><input type="text" name="adno" title="student admission in joining form" required/></td>
+</tr>
+<tr>
+<td>COURSE&nbsp;&nbsp;</td>
+<td>:</td>
+<td>
+<select name="crs">
+<option>select</option>
+<option value="mca">MCA</option>
+<option value="mba">MBA</option>
+<option value="mcom">MCOM</option>
+<option value="msc">Msc</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>HOSTEL NAME&nbsp;&nbsp;</td>
+<td>:</td>
+<td><input type="text" name="hm"  title="enter ur staying hostel name" required/></td>
+</tr>
+<tr>
+<td>HOSTEL TYPE&nbsp;&nbsp;</td>
+<td>:</td>
+<td>
+<select name="hstl">
+<option>select</option>
+<option value="mens">Mens</option>
+<option value="womens">Womens</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>MONTH&nbsp;&nbsp;</td>
+<td>:</td>
+<td>
+<select name="mnt">
+<option>select</option>
+<option value="january">JANUARY</option>
+<option value="february">FEBRUARY</option>
+<option value="march">MARCH</option>
+<option value="april">APRIL</option>
+<option value="may">MAY</option>
+<option value="june">JUNE</option>
+<option value="july">JULY</option>
+<option value="august">AUGUST</option>
+<option value="september">SEPTEMBER</option>
+<option value="october">OCTOBER</option>
+<option value="november">NOVEMBER</option>
+<option value="december">DECEMBER</option>
+</select>
+</td>
+
+</tr>
+<tr>
+<td>DAYS &nbsp;&nbsp;</td>
+<td>:</td>
+<td><input type="text" name="day"  title="days pragent in a month" required/></td>
+</tr>
+<tr>
+<td>NON_VEG&nbsp;&nbsp;</td>
+<td>:</td>
+<td><input type="text" name="cp" title="no of cups taken by student" required/></td>
+</tr>
+<tr>
+<td>NO OF LEAVES &nbsp;&nbsp;</td>
+<td>:</td>
+<td><input type="text" name="ld"  title=" student leaves in a month " required/></td>
+</tr>
+<tr>
+<td>SCHOLARSHIP&nbsp;&nbsp;</td>
+<td>:</td>
+<td><input type="text" name="ss" title="scholarship released by govt" required/></td>
+</tr>
+<tr>
+<td>STUDENTPAID &nbsp;&nbsp;</td>
+<td>:</td>
+<td><input type="text" name="cpll"  title="amount paid by student" required/></td>
+</tr>
+</table>
+<br>
+<center><input type="Submit"  name="submit"/>&emsp;
+<input type="Reset" name="Reset"/></center><br>
+<center>
+<progress style="color:black" id="progresssai"></progress>
+</center>
+</form>
+
+</center>
+</body>
+</html>

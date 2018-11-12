@@ -1,0 +1,155 @@
+<html>
+<head>
+<title>Registration form</title>
+</head>
+<style type="text/css">
+a{
+text-decoration:none;
+margin:12px;
+border:4px;
+padding:6px;
+display:inline;
+background-color:blue;
+border-radius:8px;
+text-align:center;
+color:white;
+width:100px;
+}
+a:hover{
+background-color:green;
+}
+.na{
+background-color:black;
+padding:8px;
+border-radius:4px;
+height:20px;
+width:100%;
+}
+.hd{
+background-color:yellow;
+}
+
+body
+{
+background-image:url("9k.jpg");
+}
+</style>
+<body>
+
+<div class="hd"><center><h2>SRI VENKATESWARA UNIVERSITY</h2>
+<h3>BOYS HOSTEL MANAGEMENT</h3></center>
+<hr size=2 color="red"></div>
+<div class="na">
+<center><table>
+<tr>
+<td><a href="index.html">Home</a>
+<td><a href="newuser.html">New User</a>
+<td><a href="euser.html">Existing User</a>
+<td><a href="about.html">About</a>
+<td><a href="feedback.html">Feedback</a></tr>
+</div>
+
+<form action="newuserreg.jsp">
+<center>
+<table><br>
+<b><u><font color="Green"size="5">Registration Form</font></u><b><br>
+<table cellpadding="5">
+<tr>
+<th>Name</th><th>:<font color="red">*</font></th>
+<th><input type="text box" placeholder="Name" value="" name="name"></th>
+
+<th>Surname</th><th>:<font color="red">*</font></th>
+<th><input type="text box" placeholder="Surname" value="" name="sname"></th>
+</tr>
+
+<tr>
+<th>Father's Name</th><th>:<font color="red">*</font></th>
+<th><input type="text box" placeholder="Father's Name" value="" name="fname"></th>
+
+<th>Mother's Name</th><th>:<font color="red">*</font></th>
+<th><input type="text box" placeholder="Mother's Name" value="" name="mname"></th>
+</tr>
+
+<tr>
+<th>Gender</th><th>:<font color="red">*</font></th>
+<th><input type="radio" name="gender" value="male">Male
+<input type="radio" name="gender"value="female">Female
+
+<th>
+Hostel</th><th>:</th><th><select name="hst">
+<option value="mens">mens</option>
+<option value="womens">womens</option>
+</select></th>
+
+</tr>                                            
+<tr>
+<th>Foodtype</th><th>:</th>
+<th><input type="radio" name="veg" value="veg">Veg
+<input type="radio" name="veg"value="non-veg">Non-veg
+
+</tr>
+<tr>
+<th>Date of Birth</th><th>:<font color="red">*</font></th>
+<th><input id="date" type="date" value=" " name="dt"></th>
+
+<th>Category</th><th>:<font color="red">*</font></th>
+<th>
+<select name="ct"><option value="gen">Gen</option><option value="sc">SC</option><option value="st">ST</option><option value="obc">OBC</option></select></th>
+</tr>
+<tr>
+<th>Course</th><th>:<font color="red">*</font></th>
+<th><select name="crs"><option value="mca">MCA</option><option value="mba">MBA</option><option value="m.com">M.com</option><option value="msc">Msc</option></select></th>
+
+<th>Dept Name</th><th>:<font color="red">*</font></th>
+<th><select name="dpt">
+<option value="Computer science">Computer science</option>
+<option value="Computer applications">Computer applications</option>
+<option value="Commerce">Commerce</option>
+<option value="Management ">Management </option>
+<option value="Mathametics">Mathametics</option>
+<option value="Statistics">Statistics </option>
+</select></th>
+</tr>
+
+
+<tr>
+<th>Admission no</th><th>:<font color="red">*</font></th>
+<th><input type="number" placeholder="Number "value="[0-9]*" name="adm"></th>
+
+<th>Confirm Admission no</th><th>:<font color="red">*</font></th>
+<th><input type="password" placeholder="Number "value=""></th>
+</tr>
+
+<tr>
+<th>Password</th><th>:</th>
+<th><input type="password" placeholder="password" value="" id="[0-9]*[A-Z[*[a-z]*" name="pass"></th>
+
+<th>Confirm Password</th><th>:</th>
+<th><input type="password" placeholder="password" value="" id="[0-9]*[A-Z[*[a-z]*"></th>
+</tr>
+
+<tr>
+<th>Mobile </th><th>:<font color="red">*</font></th>
+<th><input type="number" placeholder="Mobile number" minlength="10" maxlength="10" name="mb"></th>
+
+<th>E-Mail id</th><th>:</th>
+<th><input type="email" placeholder="Current email address" value="" id="[0-9]*[A-Z]*[@.#%&*^!~,]*" name="email"></th>
+</tr>
+
+<tr>
+<td colspan="3"><center>
+<br></br>
+<th><input type="submit" value="submit"></a></th>
+<th><input type="reset" value="Cancel"></a></th>
+</center></td>
+</tr>
+</form>
+</table>
+</b>
+</b>
+</table>
+
+</center>
+</form>
+</body>
+</html>

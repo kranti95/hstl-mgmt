@@ -1,0 +1,79 @@
+<html>
+<head>
+<title></title>
+<style>
+.inpt{
+width:500px;
+height:130px;
+outline:none;
+padding:20px 11px;
+border:1px #aaa solid;
+font-size:15px;
+display:block;
+background:linear-gradient(white,blue);
+}
+form{
+margin:70px 350px;
+text-align:center;
+}
+.sub{
+margin-top:15px;
+margin-left:50px;
+border:4px;
+padding:10px;
+display:block;
+background-color:dodgerblue;
+border-radius:10px;
+text-align:center;
+color:white;
+width:80px;
+}
+a{
+text-decoration:none;
+}
+a:hover{
+background-color:yellow;
+color:red;
+}
+body{
+background-image:url("ab.jpg");
+}
+ht{
+padding-left:100px;
+padding-right:100px;
+background-color:lawngreen;
+margin:0px;
+height:50px;
+border-radius:100px 100px 100px 100px;
+text-align:center;
+text-shadow:2px 2px 3px white;
+}
+img{
+float:left;
+background-repeat:no-repeat;
+padding-left:250px;
+width:100px;
+height:70px;
+}
+</style>
+</head>
+<body>
+<div>
+<img src="SVU-logo.jpg"><h2>SRI VENKATESWARA UNIVERSITY</h2>
+<h4>Balaji colony, Tirupati, 517502.</h4></img>
+</div>
+<hr size="3" color="grey"></hr>
+<center><ht style="font-size:40px"><font color="maroon">Joining Form</font></ht></center>
+<form action="join.jsp">
+<div class="inpt">
+<marquee><font color="red">please enter allotment admission no and course</marquee></font>
+<table><tr>
+<th><label for="name">Name:</label><input type="text" name="name" value="" placeholder="Name"size="10">
+<th><label for="admn">Admn No:</label><input type="text" name="adno" value="" placeholder="Admn No"size="10">
+<th><label for="course">
+Course:</label><select name="crs"><option value="mca">MCA</option><option value="msc">MSC</option><option value="mba">MBA</option><option value="mcom">MCOM</option></select></tr>
+<tr><td><input type="submit" value="submit" class="sub">
+<td><a href="index.html"><input type="button" class="sub" value="Exit"></a></tr>
+</div></form>
+</body>
+</html>

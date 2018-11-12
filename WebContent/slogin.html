@@ -1,0 +1,77 @@
+<html>
+<head>
+<title>login</title>
+<style type="text/css">
+
+input{
+width:200px;
+height:30px;
+outline:none;
+padding:10px 11px;
+border:1px #aaa solid;
+font-size:15px;
+background:white;
+display:block;
+border-radius:5px;
+}
+body{
+background:linear-gradient(white,yellow);
+}
+fieldset{
+width:50px;
+color:solid;
+font-size:18px;
+}
+form{
+margin:100px auto;text-align:none;
+}
+
+table{
+border:none;
+background:rgba(2,2,2,0.6);
+margin:8px auto;
+border-radius:5px;
+padding-right:30px;
+padding-left:30px;
+padding-bottom:10px;
+}
+a{
+color:white;
+font-weight:bold;
+background-color:black;
+border-radius:15px;
+padding:2px;
+text-decoration:none;
+
+}
+.h{
+padding-left:10px;
+padding-right:10px;
+background-color:black;
+margin:5px;
+height:30px;
+color:white;
+text-shadow:2px 2px 3px green;
+font-size:30px;
+}
+
+</style>
+</head>
+<body>
+<center><h2>Boys Hostel Management</h2></center>
+<hr size="2" color="red"></hr>
+<div class="h"><center>STUDENT LOGIN</center></div>
+<form name="loginform" action="sloginget.jsp"><center>
+<fieldset><legend>Login</legend>
+<marquee behavior="alternate"><font color="red" size="3">Register email is a your user name</font></marquee>
+<table>
+<tr><th>Username:
+<th><input type="text" name="user" placeholder="Username" title="Email as a username"><br></tr>
+<tr><th>Password:
+<th><input type="password" name="pass" placeholder="Password" title="Password"><br></tr>
+<tr><th><input type="submit" value="submit"><th><input type="button" value="cancel"></tr></center>
+</table></fieldset>
+</form>
+<br><br><center><a href="index.html">click to Home</a></center>
+</body>
+</html>
